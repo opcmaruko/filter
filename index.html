@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header class="container navbar-fixed-top header">
+        <div class="navbar-left logo">
+            <h1 class="">
+                <i class="fas fa-home fa-lg"></i><span class="tit">租屋佈告欄</span>
+            </h1>
+        </div>
+
+        <div class="search">
+            <i class="fas fa-search fa-lg"></i>
+            <input type="text" placeholder="路名、地標" class="input-search">
+
+        </div>
+        <div class="navbar-right signin">登入</div>
+    </header>
+    <nav class="container navbar-fixed-top nav ">
+        <button class="nav-btn">區域
+        <i class="fas fa-caret-down"></i>
+        <div class="citylist">
+            <label class="checkbox-inline checkbox-inline1">
+                <input type="checkbox" name="" id="">台北
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">新北
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">桃園
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">新竹
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">苗栗
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">台中
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">南投
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">彰化
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">雲林
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">嘉義
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">台南
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">高雄
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">屏東
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">宜蘭
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">花蓮
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">台東
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">澎湖金門馬祖
+            </label>
+
+        </div>
+    </button>
+
+        <button class="nav-btn">類型
+        <i class="fas fa-caret-down"></i>
+        <div class="specieslist">
+            <label class="checkbox-inline checkbox-inline1">
+                <input type="checkbox" name="" id="">分租套房
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">獨立套房
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">整層住家
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">透天
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">店面
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">辦公室
+            </label>
+        </div>
+
+    </button>
+        <button class="nav-btn">租金
+        <i class="fas fa-caret-down"></i>
+        <div class="pricelist">
+
+            <label class="radio-inline checkbox-inline1">
+                <input type="radio" name="price" id=" ">10000元以下
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="price" id="">10001元-15000元
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="price" id="">15001元-20000元
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="price" id="">20001元-25000元
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="price" id="">25000元-30000元
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="price" id="">30000元以上
+            </label>
+
+        </div>
+
+    </button>
+        <button class="nav-btn">更多條件
+        <i class="fas fa-caret-down"></i>
+        <div class="morelist">
+            <label class="checkbox-inline  checkbox-inline1">
+                <input type="checkbox" name="" id="">有冷氣
+            </label>
+            <label class=" checkbox-inline">
+                <input type="checkbox" name="" id="">有電梯
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">可開伙
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">可寵物
+            </label>
+            <label class="checkbox-inline">
+                <input type="checkbox" name="" id="">有傢俱
+            </label>
+        </div>
+    </button>
+
+
+    </nav>
+
+
+    <h3 class="h3">篩選出<span class="number">40</span>筆物件</h3>
+    <div class="container list">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+
+
+
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+            </div>
+            <div class="col-xs-12 col-sm-6  md-5 ">
+                <a class="card" href="index2.html">
+                    <img src="https://picsum.photos/600/400/" class="img-responsive" alt="">
+                    <h4>三重捷運站四房</h4>
+                    <p class="price">35,000元</p>
+                    <p class="content">
+                        <span class="address">新北市三重區捷運路</span>
+                        <span class="ping">40坪</span>
+                        <span class="species">電梯大樓</span>
+                        <span class="floor">6樓/12樓</span>
+                        <span class="pattern">4房2廳2衛</span>
+                    </p>
+                    <div class="clearfix"></div>
+                </a>
+            </div>
+
+
+        </div>
+        <div class="page">
+            <ul class="pagination">
+                <li>
+                    <a href="" class="active">1</a>
+                </li>
+                <li>
+                    <a href="">2</a>
+                </li>
+                <li>
+                    <a href="">3</a>
+                </li>
+                <li>
+                    <a class="next" href="index2.html">
+                        <i class="fas fa-chevron-right fa-sm"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

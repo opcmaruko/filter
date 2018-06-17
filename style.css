@@ -1,0 +1,619 @@
+                .header {
+                    width: 100%;
+                    background: #FFFFFF;
+                    box-shadow: 0 2px 3px -1px #FAE1B9;
+                }
+                
+                .logo {
+                    margin: 20px;
+                    color: #F09B7D;
+                }
+                
+                .logo a {
+                    color: #F09B7D;
+                    text-decoration: none;
+                }
+                
+                h1 {
+                    font-family: PingFangTC-Semibold;
+                    font-size: 24px;
+                    float: left;
+                }
+                
+                .fa-home {
+                    margin-right: 10px;
+                }
+                
+                .search {
+                    float: left;
+                    background: #FAF1E2;
+                    width: 40%;
+                    height: 40px;
+                    margin: 30px;
+                }
+                
+                .input-search {
+                    border: none;
+                    outline: none;
+                    background: #FAF1E2;
+                    width: 90%;
+                    height: 40px;
+                    float: right;
+                }
+                
+                .input-search:focus {
+                    border-bottom: 1px solid #F09B7D;
+                }
+                
+                 ::placeholder {
+                    font-family: PingFangTC-Regular;
+                    font-size: 18px;
+                    color: #9B9B9B;
+                    padding: 0 0 0 5px;
+                    position: relative;
+                }
+                
+                .fa-search {
+                    position: relative;
+                    left: 2.5%;
+                    top: 25%;
+                    color: #F2A387;
+                }
+                
+                .signin {
+                    font-family: PingFangTC-Medium;
+                    font-size: 18px;
+                    color: #4A4A4A;
+                    height: 40px;
+                    margin: 30px;
+                    cursor: pointer;
+                }
+                
+                .signin:hover,
+                .signin:focus {
+                    color: #706f6f;
+                }
+                
+                .nav {
+                    margin: 101px 0 0 3%;
+                    width: 100%;
+                    background: #FFFFFF;
+                    padding: 20px;
+                }
+                
+                .nav-btn {
+                    background: #FFFFFF;
+                    border: 1px solid #FBE8C9;
+                    box-shadow: 0 3px 4px -2px rgba(251, 232, 201, 0.45);
+                    border-radius: 2px;
+                    outline: none;
+                    font-family: NotoSansTC-Medium;
+                    font-size: 14px;
+                    color: #F09B7D;
+                    padding: 6px 16px;
+                }
+                
+                .fa-caret-down {
+                    margin-left: 6px;
+                }
+                
+                .nav-btn:hover,
+                .nav-btn:focus,
+                .nav-btn:active {
+                    background: #FAF1E2;
+                }
+                
+                .citylist,
+                .specieslist,
+                .pricelist,
+                .morelist {
+                    display: none;
+                    float: left;
+                    z-index: 999;
+                }
+                
+                .checkbox-inline+.checkbox-inline,
+                .radio-inline+.radio-inline {
+                    margin-left: 0px;
+                    margin-right: 10px;
+                }
+                
+                .checkbox-inline1 {
+                    margin-right: 10px;
+                }
+                
+                .checkbox-inline,
+                .radio-inline {
+                    float: left;
+                }
+                
+                input [type=checkbox] {
+                    margin: 10px;
+                }
+                
+                .nav-btn:active .citylist,
+                .nav-btn:focus .citylist,
+                .nav-btn:active .specieslist,
+                .nav-btn:focus .specieslist,
+                .nav-btn:active .pricelist,
+                .nav-btn:focus .pricelist,
+                .nav-btn:active .morelist,
+                .nav-btn:focus .morelist {
+                    display: block;
+                    background: #FFFFFF;
+                    box-shadow: 0 2px 4px 1px rgba(176, 176, 176, 0.55);
+                    border-radius: 2px;
+                    position: absolute;
+                    float: left;
+                    top: 60px;
+                    left: 0;
+                    padding: 10px;
+                    box-sizing: border-box;
+                }
+                
+                .h3 {
+                    font-family: PingFangTC-Regular;
+                    margin: 180px 0 0 3%;
+                    font-size: 18px;
+                }
+                
+                .number {
+                    font-family: NotoSansTC-Medium;
+                    font-size: 20px;
+                    color: #F2A387;
+                }
+                
+                .list {
+                    width: 95%;
+                    margin-top: 20px;
+                }
+                
+                .card {
+                    display: block;
+                    margin-right: -6px;
+                    margin-left: -6px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+                
+                .card:hover {
+                    text-decoration: none;
+                }
+                
+                .card:hover>img {
+                    box-shadow: 0 2px 3px 1px #FAE1B9;
+                }
+                
+                h4 {
+                    float: left;
+                    font-family: PingFangTC-Regular;
+                    font-size: 18px;
+                    color: #000000;
+                    line-height: 28px;
+                }
+                
+                .price {
+                    float: right;
+                    font-family: NotoSansTC-Medium;
+                    font-size: 20px;
+                    color: #D50000;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+                
+                .content {
+                    clear: both;
+                    font-family: PingFangTC-Regular;
+                    font-size: 14px;
+                    color: #9B9B9B;
+                }
+                
+                .ping {
+                    float: right;
+                }
+                
+                .species {
+                    clear: both;
+                    float: left;
+                    width: 33%;
+                }
+                
+                .floor {
+                    float: left;
+                }
+                
+                .pattern {
+                    float: right;
+                }
+                
+                .page {
+                    text-align: center;
+                    clear: both;
+                }
+                
+                .pagination>li>a {
+                    font-family: PingFangTC-Regular;
+                    font-size: 18px;
+                    color: #9B9B9B;
+                    text-align: center;
+                    border: none;
+                    line-height: 22px;
+                    margin: 0 3px;
+                }
+                
+                .pagination>li>a:active,
+                .pagination>li>a.active {
+                    font-family: PingFangTC-Semibold;
+                    font-size: 24px;
+                    color: #F09B7D;
+                }
+                
+                .pagination>li>a:hover {
+                    background: none;
+                    color: #F09B7D;
+                }
+                
+                .pagination>li>a.next {
+                    border: 1px solid #F09B7D;
+                    border-radius: 50%;
+                    color: #F09B7D;
+                }
+                
+                @media (min-width: 1200px) {
+                    .md-5 {
+                        width: 20%;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    .tit {
+                        display: none;
+                    }
+                    .search {
+                        width: 55%;
+                        margin: 10px;
+                    }
+                    .input-search {
+                        width: 80%;
+                    }
+                     ::placeholder {
+                        font-size: 14px;
+                    }
+                    .signin {
+                        float: right;
+                        height: 25px;
+                        margin: 20px 0px;
+                    }
+                    .nav {
+                        margin: 85px 0 0 0;
+                        width: 100%;
+                        background: #FFFFFF;
+                        padding: 0px;
+                    }
+                    .nav-btn {
+                        background: #FFFFFF;
+                        border: 1px solid #FBE8C9;
+                        box-shadow: 0 3px 4px -2px rgba(251, 232, 201, 0.45);
+                        border-radius: 0px;
+                        width: 100%;
+                        padding: 6px 16px;
+                    }
+                    .checkbox-inline+.checkbox-inline,
+                    .radio-inline+.radio-inline {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                    .checkbox-inline1 {
+                        margin-right: 10px;
+                    }
+                    label {
+                        display: block;
+                    }
+                    .checkbox-inline,
+                    .radio-inline {
+                        display: block;
+                        float: none;
+                        text-align: left;
+                        margin: 10px 0;
+                        max-width: 65%;
+                    }
+                    input [type=checkbox] {
+                        margin: 10px;
+                        display: block;
+                    }
+                    .nav-btn:active .citylist,
+                    .nav-btn:focus .citylist,
+                    .nav-btn:active .specieslist,
+                    .nav-btn:focus .specieslist,
+                    .nav-btn:active .pricelist,
+                    .nav-btn:focus .pricelist,
+                    .nav-btn:active .morelist,
+                    .nav-btn:focus .morelist {
+                        box-shadow: none;
+                        border-radius: 0px;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        padding: 10%;
+                        box-sizing: border-box;
+                        font-size: 20px;
+                    }
+                }
+                
+                .bigimg {
+                    margin: 101px 0 0 0;
+                }
+                
+                .sm-img-group {
+                    width: 100%;
+                }
+                
+                .smbimg {
+                    display: inline-block;
+                    margin: 0 -2px;
+                    width: 10%;
+                }
+                
+                .fa-chevron-left,
+                .fa-chevron-right {
+                    position: absolute;
+                    top: 30%;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 20px;
+                }
+                
+                .fa-chevron-left:hover,
+                .fa-chevron-right:hover {
+                    color: #ffffff91;
+                    font-size: 24px;
+                }
+                
+                .fa-chevron-left {
+                    left: 5%;
+                }
+                
+                .fa-chevron-right {
+                    right: 5%;
+                }
+                
+                .tit-h2 {
+                    width: 50%;
+                    float: left;
+                }
+                
+                .fa-share-square,
+                .fa-heart {
+                    float: right;
+                    font-size: 24px;
+                    margin: 3px 5px;
+                }
+                
+                .tit-price {
+                    float: left;
+                    font-size: 24px;
+                    margin: 20px 130px;
+                }
+                
+                .tit-address {
+                    clear: both;
+                    float: left;
+                    font-family: PingFangTC-Regular;
+                    font-size: 18px;
+                    color: #9B9B9B;
+                }
+                
+                .fa-map-marker-alt {
+                    color: #000;
+                    margin-right: 5px;
+                }
+                
+                .explan {
+                    margin: 50px -15px 0;
+                }
+                
+                .textitem {
+                    font-family: PingFangTC-Regular;
+                    float: left;
+                    width: 33.33%;
+                }
+                
+                .tit-s {
+                    font-size: 16px;
+                    color: #9B9B9B;
+                    margin: 0 0 3px 0;
+                }
+                
+                .text-s {
+                    font-size: 18px;
+                    color: #000000;
+                }
+                
+                hr {
+                    border: 1px solid #FAF1E2;
+                }
+                
+                .list-text {
+                    font-size: 18px;
+                    color: #9B9B9B;
+                    float: left;
+                    width: 16.66%
+                }
+                
+                .ck-text {
+                    color: #F09B7D;
+                }
+                
+                .p-card {
+                    border: 1px solid #FAF1E2;
+                    margin: 50px 20%;
+                }
+                
+                .img-radius {
+                    border-radius: 50%;
+                    margin: 30px auto;
+                }
+                
+                .owner,
+                .people,
+                .tel {
+                    font-family: NotoSansTC-Medium;
+                    font-size: 24px;
+                    text-align: center;
+                }
+                
+                .owner {
+                    font-size: 24px;
+                    color: #9B9B9B;
+                }
+                
+                .people,
+                .tel {
+                    font-size: 36px;
+                    color: #4A4A4A;
+                }
+                
+                .people {
+                    margin-left: 10px;
+                }
+                
+                .tel {
+                    text-align: center;
+                }
+                
+                .res {
+                    background: #F09B7D;
+                    border-radius: 2px;
+                    color: #fff;
+                    margin: 20% 10%;
+                    width: 80%;
+                    padding: 10px 0;
+                    border: none;
+                }
+                
+                .res>a {
+                    color: #fff;
+                }
+                
+                .res>a:hover {
+                    text-decoration: none;
+                }
+                
+                @media (max-width: 960px) {
+                    .fa-chevron-left,
+                    .fa-chevron-right {
+                        top: 50%;
+                    }
+                    .tit-s {
+                        font-size: 14px;
+                    }
+                    .text-s {
+                        font-size: 16px;
+                    }
+                    .p-card {
+                        margin: 50px 5%;
+                    }
+                    .tel {
+                        font-size: 30px;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    .bigimg {
+                        margin: 85px 0 0 0;
+                    }
+                    .sm-img-group {
+                        display: none;
+                    }
+                    .fa-chevron-left,
+                    .fa-chevron-right {
+                        top: 18%;
+                    }
+                    .tit-h2 {
+                        width: 95%;
+                        float: none;
+                        text-align: center;
+                    }
+                    .fa-share-square,
+                    .fa-heart {
+                        float: right;
+                        font-size: 24px;
+                        margin: 3px 10px;
+                    }
+                    .tit-price {
+                        float: right;
+                        margin: 30px 65% 0 0;
+                    }
+                    .tit-address {
+                        clear: none;
+                        float: left;
+                        margin: -60px 5px 0 20px;
+                    }
+                    .explan {
+                        margin: 30px 0 0;
+                    }
+                    .textitem {
+                        font-family: PingFangTC-Regular;
+                        float: left;
+                        width: 33.33%;
+                    }
+                    .tit-s {
+                        font-size: 14px;
+                    }
+                    .text-s {
+                        font-size: 14px;
+                    }
+                    .list-text {
+                        font-size: 18px;
+                        color: #9B9B9B;
+                        float: left;
+                        width: 20%
+                    }
+                    .ck-text {
+                        color: #F09B7D;
+                    }
+                    .p-card {
+                        position: fixed;
+                        bottom: 0;
+                        right: 0;
+                        background: #fff;
+                        border: none;
+                        margin: 0;
+                        width: 100%;
+                        height: 50px;
+                        box-shadow: 0px 2px 3px 2px #FAE1B9;
+                    }
+                    .img-radius {
+                        display: none;
+                    }
+                    .owner-tit {
+                        display: none;
+                    }
+                    .owner {
+                        margin: 5px 0 0px 10px;
+                    }
+                    .owner,
+                    .people,
+                    .tel {
+                        font-size: 16px;
+                        color: #4A4A4A;
+                        text-align: left;
+                    }
+                    .people {
+                        margin: 0;
+                    }
+                    .tel {
+                        text-align: left;
+                        margin: 0 0 0 10px;
+                    }
+                    .res {
+                        position: absolute;
+                        bottom: 8px;
+                        right: 30px;
+                        margin: 0;
+                        width: 50%;
+                        padding: 5px 0;
+                    }
+                }
